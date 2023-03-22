@@ -1,0 +1,194 @@
+{
+  "customers": [
+    {
+      "firstName": "Cynthia J.",
+      "lastName": "Watts",
+      "email": "meqiqajor.favurubam@rungel.net",
+      "image": "https://tailus.io/sources/blocks/stats-cards/preview/images/second_user.webp",
+      "gender": "Female",
+      "address": "New Yerok USA",
+      "account": {
+        "type": "checking",
+        "balance": 758,
+        "accountNumber": "1585 6998 8456"
+      },
+      "id": "uNtAK9i"
+    },
+    {
+      "firstName": "AYOUB",
+      "lastName": "ELHAOUSSInajja",
+      "email": "one12ayoub@gmail.com",
+      "image": "https://as1.ftcdn.net/v2/jpg/02/11/41/90/1000_F_211419019_XMsPr1uBdlJGKvlSRLZm5ZYzAEQvfFO2.jpg",
+      "gender": "Male",
+      "address": "aaaaaaaaaaaa",
+      "account": {
+        "type": "checking",
+        "balance": 0,
+        "accountNumber": "1585 6998 8454"
+      },
+      "id": "BfsjM_h"
+    },
+    {
+      "firstName": "saad",
+      "lastName": "Elhassani",
+      "email": "one12ayoub@gmail.com",
+      "image": "https://as1.ftcdn.net/v2/jpg/02/40/30/56/1000_F_240305608_aDd9uoyCq1qLNCGEWWyGrX8Ct7jHIBoi.jpg",
+      "gender": "Male",
+      "address": "",
+      "account": {
+        "type": "checking",
+        "balance": 1000,
+        "accountNumber": "7777 7777 7777"
+      },
+      "id": "yAmhtgF"
+    },
+    {
+      "id": "c25605e0-429a-4ac2-8304-56a1b9819e37",
+      "firstName": "Pooh",
+      "lastName": "Maliphant",
+      "email": "pmaliphant1@illinois.edu",
+      "gender": "Male",
+      "address": "1 Ilene Road",
+      "image": "https://img.freepik.com/free-photo/portrait-white-man-isolated_53876-40306.jpg?w=1060&t=st=1679066800~exp=1679067400~hmac=795076b987a54377cfdb2f73f342080380cd479b7b4041a3564cdfa1f7cb4e22",
+      "account": {
+        "accountNumber": "8999 9999 9999 ",
+        "type": "savings",
+        "balance": 800
+      }
+    },
+    {
+      "id": "ca32646f-e09e-462d-b1e5-76cd9eb16d87",
+      "firstName": "Charla",
+      "lastName": "Courteney",
+      "email": "ccourteney2@nih.gov",
+      "gender": "Female",
+      "address": "37 Dapin Point",
+      "image": "https://img.freepik.com/free-photo/portrait-white-man-isolated_53876-40306.jpg?w=1060&t=st=1679066800~exp=1679067400~hmac=795076b987a54377cfdb2f73f342080380cd479b7b4041a3564cdfa1f7cb4e22",
+      "account": {
+        "accountNumber": "1575 6581 9999 ",
+        "type": "checking",
+        "balance": 80000
+      }
+    },
+    {
+      "id": "7578e374-6dac-4410-9cfb-ef0ef1abb89d",
+      "firstName": "Bogey",
+      "lastName": "Stothard",
+      "email": "bstothard3@theatlantic.com",
+      "gender": "Male",
+      "address": "58 Pleasure Point",
+      "images": "https://as1.ftcdn.net/v2/jpg/04/35/60/96/1000_F_435609640_poYfXAFPGdFscp4Y3Yyj2e5eHgRipauV.jpg",
+      "account": {
+        "accountNumber": "8999 9999 9999 ",
+        "type": "checking",
+        "balance": 1000
+      }
+    },
+    {
+      "id": "0074b69f-911e-4c79-b8bb-dbac982f5e1f",
+      "firstName": "Temple",
+      "lastName": "Roston",
+      "email": "troston4@ox.ac.uk",
+      "gender": "Male",
+      "address": "734 Fairview Center",
+      "image": "https://img.freepik.com/free-photo/portrait-white-man-isolated_53876-40306.jpg?w=1060&t=st=1679066800~exp=1679067400~hmac=795076b987a54377cfdb2f73f342080380cd479b7b4041a3564cdfa1f7cb4e22",
+      "account": {
+        "accountNumber": "8999 9999 9999 ",
+        "type": "savings",
+        "balance": 7777
+      }
+    },
+    {
+      "id": "01a1e4e1-5e8a-4669-a4cb-03782bf30d7b",
+      "firstName": "Alfreda",
+      "lastName": "Bendon",
+      "email": "abendon7@e-recht24.de",
+      "gender": "Female",
+      "address": "5 Loomis Terrace",
+      "account": {
+        "accountNumber": "8999 9999 9999 ",
+        "type": "checking",
+        "balance": 1000
+      }
+    },
+    {
+      "id": "0126e908-e7c5-40b3-8667-a40ade36eccb",
+      "firstName": "Sara",
+      "lastName": "Bischoff",
+      "email": "sbischoff8@chicagotribune.com",
+      "gender": "Female",
+      "address": "6239 Alpine Trail",
+      "account": {
+        "accountNumber": "8999 9999 9999 ",
+        "type": "checking",
+        "balance": 1000
+      }
+    },
+    {
+      "id": "6a62a8f0-ccaa-491c-bbfe-90ba01c69c74",
+      "firstName": "Chen",
+      "lastName": "Duchenne",
+      "email": "cduchennec@lulu.com",
+      "gender": "Male",
+      "address": "3238 Lien Avenue",
+      "account": {
+        "accountNumber": "8999 9999 9999 ",
+        "type": "checking",
+        "balance": 1000
+      }
+    },
+    {
+      "id": "54f7ce20-e282-4d4f-85c0-9982bf9e081f",
+      "firstName": "Kaylil",
+      "lastName": "Maffeo",
+      "email": "kmaffeod@altervista.org",
+      "gender": "Female",
+      "address": "17 Judy Parkway",
+      "account": {
+        "accountNumber": "8999 9999 9999 ",
+        "type": "checking",
+        "balance": 1000
+      }
+    },
+    {
+      "id": "05e29be3-1986-4b58-95b9-1abdeb910737",
+      "firstName": "Darryl",
+      "lastName": "Yurukhin",
+      "email": "dyurukhine@archive.org",
+      "gender": "Female",
+      "address": "64 Manley Parkway",
+      "account": {
+        "accountNumber": "8999 9999 9999 ",
+        "type": "checking",
+        "balance": 1000
+      }
+    },
+    {
+      "id": "6bdbbe6f-2089-4cba-a030-637756b2ddd7",
+      "firstName": "Essa",
+      "lastName": "Yurkevich",
+      "email": "eyurkevichf@nps.gov",
+      "gender": "Female",
+      "address": "03 Dennis Hill",
+      "account": {
+        "accountNumber": "8999 9999 9999 ",
+        "type": "checking",
+        "balance": 1000
+      }
+    },
+    {
+      "firstName": "AYOUB",
+      "lastName": "ELHAOUSSIO",
+      "email": "one12ayoub@gmail.com",
+      "image": "https://avatars.githubusercontent.com/u/84724511?s=400&u=ac9098a3919fb3aac5249f3b06c45575792c71b1&v=4",
+      "gender": "Male",
+      "address": "ajdajjdjaj",
+      "account": {
+        "type": "checking",
+        "balance": 0,
+        "accountNumber": "1585 6998 8451"
+      },
+      "id": "JhOFnD1"
+    }
+  ]
+}

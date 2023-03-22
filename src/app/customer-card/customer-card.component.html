@@ -1,0 +1,54 @@
+<a  class="relative block overflow-hidden rounded-lg border border-gray-100 p-4 sm:p-6 lg:p-8 bg-white shadow-sm">
+  <div class="absolute top-0 right-0 flex gap-4">
+    <a [routerLink]="['update',customer?.id]" class="text-blue-500 hover:text-blue-700 ">
+      <img src="../../assets/images/edit.png" class=" w-5 h-5 ">
+    </a>
+    <button (click)="onDelete(customer)"  class="text-red-500 hover:text-red-700">
+      <img src="../../assets/images/delete.png" class=" m-1 w-5 h-5 ">
+
+    </button>
+  </div>
+
+  <a  [routerLink]="['customer', customer?.id]" >
+
+    <span class="absolute inset-x-0 bottom-0 h-2 bg-gradient-to-r from-green-300 via-blue-500 to-purple-600"></span>
+    <div class="sm:flex sm:justify-between sm:items-center sm:gap-4">
+      <div class="flex  items-center">
+        <img alt="{{ customer?.firstName }} {{ customer?.lastName }}" [src]="customer?.image" class="h-16 w-16 rounded-lg object-cover shadow-sm sm:mr-4" />
+        <div >
+            <h3 class="text-lg font-bold text-gray-900 sm:text-xl">{{ customer?.firstName }} {{ customer?.lastName }}</h3>
+            <p class="mt-1 text-xs font-medium text-gray-600">{{ customer?.email }}</p>
+        <div class="mt-2">
+            <span class="text-sm {{ customer?.account?.type === 'checking' ? 'bg-violet-600' : 'bg-blue-500' }} bg-opacity-75 text-white px-2 py-1 rounded-xl">
+                {{ customer?.account?.type | lowercase}}
+            </span>
+        </div>
+        </div>
+        
+        </div>
+       
+        
+        <div class="hidden sm:block sm:shrink-0">
+          <span class="text-sm font-medium text-gray-500">Balance:</span>
+          <h4 class="text-lg font-bold text-gray-900">${{ customer?.account?.balance | number: '1.2-2' }}</h4>
+        </div>
+    </div>
+ 
+    <dl class="mt-6 flex gap-4 sm:gap-6">
+        <div class="flex flex-col-reverse flex-1">
+            <dt class="text-sm font-bold text-gray-900 text-center mt-2">{{ customer?.account?.accountNumber }}</dt>
+            <dd class="text-xs text-gray-500 text-center">Acount Number :</dd>
+          </div>
+          <div class="flex flex-col-reverse flex-1">
+            <dt class="text-clip text-sm  text-gray-900 text-center mt-2">{{customer?.address}}</dt>
+            <dd class="text-xs text-gray-500 text-center">Address :</dd>
+          </div>
+          <div class="flex flex-col-reverse flex-1">
+            <dt class="text-sm font-medium text-white {{ customer?.gender === 'Female' ? 'bg-pink-500' : 'bg-green-500' }} px-1 rounded-2xl mt-2 text-center whitespace-normal break-words" >{{customer?.gender}}</dt>
+            <dd class="text-xs text-gray-500 text-center">Gender :</dd>
+          </div>
+          
+    </dl>
+  </a>
+</a>
+                    
